@@ -8,7 +8,7 @@
 1. Open TickrAssessment.xcodeproj in Xcode 12.2 and above. 
 2.  Select Target as TickrAssessment
 3. Select Simulator ,  if simulator is now showig chagne Deployment Target from project setting. 
-4  Click on run button. 
+4. Click on run button. 
 
 
 # approaches
