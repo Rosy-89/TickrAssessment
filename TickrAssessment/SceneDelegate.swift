@@ -1,9 +1,6 @@
 //
 //  SceneDelegate.swift
 //  TickrAssessment
-//
-//  Created by Alok Kumar Naik on 27/04/2021.
-//
 
 import UIKit
 import SwiftUI

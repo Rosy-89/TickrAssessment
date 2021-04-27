@@ -1,9 +1,6 @@
 //
 //  TickrAssessmentUITests.swift
 //  TickrAssessmentUITests
-//
-//  Created by Alok Kumar Naik on 27/04/2021.
-//
 
 import XCTest
 
