@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E19110272638057600243AA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110262638057600243AA2 /* AppDelegate.swift */; };
-		E19110292638057600243AA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110282638057600243AA2 /* SceneDelegate.swift */; };
 		E191102B2638057600243AA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191102A2638057600243AA2 /* ContentView.swift */; };
 		E191102E2638057600243AA2 /* TickrAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E191102C2638057600243AA2 /* TickrAssessment.xcdatamodeld */; };
 		E19110302638057700243AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E191102F2638057700243AA2 /* Assets.xcassets */; };
@@ -58,8 +56,6 @@
 
 /* Begin PBXFileReference section */
 		E19110232638057600243AA2 /* TickrAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickrAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E19110262638057600243AA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E19110282638057600243AA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E191102A2638057600243AA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E191102D2638057600243AA2 /* TickrAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TickrAssessment.xcdatamodel; sourceTree = "<group>"; };
 		E191102F2638057700243AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,8 +145,6 @@
 				E191107A2638219F00243AA2 /* Model */,
 				E191106526381DDA00243AA2 /* Services */,
 				E19110C926382F0900243AA2 /* TickerAssessmentApp.swift */,
-				E19110262638057600243AA2 /* AppDelegate.swift */,
-				E19110282638057600243AA2 /* SceneDelegate.swift */,
 				E191102A2638057600243AA2 /* ContentView.swift */,
 				E191102F2638057700243AA2 /* Assets.xcassets */,
 				E19110342638057700243AA2 /* LaunchScreen.storyboard */,
@@ -407,10 +401,8 @@
 				E19110A626382C5300243AA2 /* NewsItemsView.swift in Sources */,
 				E191107C263821B400243AA2 /* SearchResult.swift in Sources */,
 				E19110762638206B00243AA2 /* ModelManager.swift in Sources */,
-				E19110272638057600243AA2 /* AppDelegate.swift in Sources */,
 				E19110B326382D4100243AA2 /* View+Navigation.swift in Sources */,
 				E191106726381E0500243AA2 /* EndPoints.swift in Sources */,
-				E19110292638057600243AA2 /* SceneDelegate.swift in Sources */,
 				E19110CA26382F0900243AA2 /* TickerAssessmentApp.swift in Sources */,
 				E19110882638251800243AA2 /* NewsViewModel.swift in Sources */,
 				E19110BD26382DFE00243AA2 /* NewsDetailView.swift in Sources */,
