@@ -32,6 +32,11 @@
 		E19110BD26382DFE00243AA2 /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110BC26382DFE00243AA2 /* NewsDetailView.swift */; };
 		E19110C526382E4700243AA2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110C426382E4700243AA2 /* WebView.swift */; };
 		E19110CA26382F0900243AA2 /* TickerAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110C926382F0900243AA2 /* TickerAssessmentApp.swift */; };
+		E19110D52638327200243AA2 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = E19110D42638327200243AA2 /* example.json */; };
+		E19110DA263832DE00243AA2 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110D9263832DE00243AA2 /* Mocks.swift */; };
+		E19110DF2638336A00243AA2 /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110DE2638336A00243AA2 /* ListViewModelTests.swift */; };
+		E19110E4263833BB00243AA2 /* ModelManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110E3263833BB00243AA2 /* ModelManagerTests.swift */; };
+		E19110E9263835C300243AA2 /* NewsDetaisViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110E8263835C300243AA2 /* NewsDetaisViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +87,11 @@
 		E19110BC26382DFE00243AA2 /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
 		E19110C426382E4700243AA2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		E19110C926382F0900243AA2 /* TickerAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerAssessmentApp.swift; sourceTree = "<group>"; };
+		E19110D42638327200243AA2 /* example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
+		E19110D9263832DE00243AA2 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		E19110DE2638336A00243AA2 /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
+		E19110E3263833BB00243AA2 /* ModelManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManagerTests.swift; sourceTree = "<group>"; };
+		E19110E8263835C300243AA2 /* NewsDetaisViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetaisViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +172,13 @@
 		E191103F2638057700243AA2 /* TickrAssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				E19110402638057700243AA2 /* TickrAssessmentTests.swift */,
+				E19110D42638327200243AA2 /* example.json */,
+				E19110D9263832DE00243AA2 /* Mocks.swift */,
+				E19110DE2638336A00243AA2 /* ListViewModelTests.swift */,
+				E19110E3263833BB00243AA2 /* ModelManagerTests.swift */,
 				E19110422638057700243AA2 /* Info.plist */,
+				E19110402638057700243AA2 /* TickrAssessmentTests.swift */,
+				E19110E8263835C300243AA2 /* NewsDetaisViewModelTests.swift */,
 			);
 			path = TickrAssessmentTests;
 			sourceTree = "<group>";
@@ -369,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19110D52638327200243AA2 /* example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +428,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19110E9263835C300243AA2 /* NewsDetaisViewModelTests.swift in Sources */,
 				E19110412638057700243AA2 /* TickrAssessmentTests.swift in Sources */,
+				E19110E4263833BB00243AA2 /* ModelManagerTests.swift in Sources */,
+				E19110DA263832DE00243AA2 /* Mocks.swift in Sources */,
+				E19110DF2638336A00243AA2 /* ListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
