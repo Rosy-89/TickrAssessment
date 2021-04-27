@@ -35,6 +35,7 @@
 		E19110DF2638336A00243AA2 /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110DE2638336A00243AA2 /* ListViewModelTests.swift */; };
 		E19110E4263833BB00243AA2 /* ModelManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110E3263833BB00243AA2 /* ModelManagerTests.swift */; };
 		E19110E9263835C300243AA2 /* NewsDetaisViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19110E8263835C300243AA2 /* NewsDetaisViewModelTests.swift */; };
+		E191110326384B2A00243AA2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E191110226384B2A00243AA2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		E19110DE2638336A00243AA2 /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
 		E19110E3263833BB00243AA2 /* ModelManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManagerTests.swift; sourceTree = "<group>"; };
 		E19110E8263835C300243AA2 /* NewsDetaisViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetaisViewModelTests.swift; sourceTree = "<group>"; };
+		E191110226384B2A00243AA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		E191101A2638057600243AA2 = {
 			isa = PBXGroup;
 			children = (
+				E191110226384B2A00243AA2 /* README.md */,
 				E19110252638057600243AA2 /* TickrAssessment */,
 				E191103F2638057700243AA2 /* TickrAssessmentTests */,
 				E191104A2638057700243AA2 /* TickrAssessmentUITests */,
@@ -370,6 +373,7 @@
 			files = (
 				E19110362638057700243AA2 /* LaunchScreen.storyboard in Resources */,
 				E19110332638057700243AA2 /* Preview Assets.xcassets in Resources */,
+				E191110326384B2A00243AA2 /* README.md in Resources */,
 				E19110302638057700243AA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
